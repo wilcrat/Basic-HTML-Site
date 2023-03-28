@@ -55,12 +55,13 @@ footer {
   display: flex;
   flex-direction: column;
   height: 10vh;
+  margin-top: 50px;
 }
 .social {
   display: flex;
   justify-content: space-around;
   margin-top: 27px;
-  padding: 10px;
+  padding-top: 20px;
   background-color: #35353565;
 }
 .fb:hover,
@@ -78,6 +79,7 @@ footer {
   justify-content: center;
   background-color: #35353565;
   font-size: 14px;
+  padding: 15px;
 }
 .by img {
   height: 20px;
