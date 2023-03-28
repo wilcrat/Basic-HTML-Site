@@ -76,7 +76,8 @@ footer {
 .by {
   display: flex;
   justify-content: center;
-  background-color: rgba(99, 204, 0, 0.692);
+  background-color: #35353565;
+  font-size: 1vw;
 }
 .by img {
   height: 20px;
