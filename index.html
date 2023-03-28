@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>User Centered Design</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="./img/icon-asus.jpg"
+      type="image/gif"
+      sizes="14x14"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img class="logo-img" src="./img/logo.svg" alt="logo" />
+        <h4 class="logo">ASUS R541UV</h4>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a class="nav-link" href="./Specifications.html">Specifications</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <div class="cart">
+        <a href="./Cart.html"><img src="./img/cart.svg" alt="cart" /></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="presentation">
+        <div class="introduction">
+          <div class="intro-text">
+            <h1>
+              Immersive sound. <br />
+              Powerful performance.
+            </h1>
+            <p>
+              ASUS R541UV is designed to give you a truly immersive multimedia
+              experience.
+            </p>
+          </div>
+          <div class="cta">
+            <button class="cta-select">
+              <a
+                target="_blank"
+                href="https://www.amazon.in/Asus-R541UV-GO573T-15-6-inch-i5-7200U-Chocolate/dp/B074MCFHNH"
+                >Buy Now</a
+              >
+            </button>
+            <button class="cta-add">Add To Cart</button>
+          </div>
+        </div>
+        <div class="cover">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="./img/Img1.png" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="./img/Img2.png" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="./img/Img3.png" style="width: 100%" />
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+
+        <br />
+      </section>
+
+      <div style="text-align: center" class="dot-align">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+      <img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+      <img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+    </main>
+
+    <footer>
+      <div class="social">
+        <div class="fb">
+          <a target="_blank" href="https://www.facebook.com/UoEmbu/"
+            ><img src="./img/facebook.png" alt="faceboook"
+          /></a>
+        </div>
+        <div class="insta">
+          <a target="_blank" href="https://www.instagram.com/uoembu/?hl=en"
+            ><img src="./img/instagram.png" alt="instagram"
+          /></a>
+        </div>
+        <div class="twitter">
+          <a target="_blank" href="https://twitter.com/uoembu?lang=en"
+            ><img src="./img/twitter.png" alt="twitter"
+          /></a>
+        </div>
+        <div class="linkedin">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/school/uoembu/?originalSubdomain=ke"
+            ><img src="./img/linkedin.png" alt="linkedin"
+          /></a>
+        </div>
+      </div>
+      <div class="by">
+        <img src="./img/created.png" alt="" /> Created by UCD Developer Students
+        UoEm
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
