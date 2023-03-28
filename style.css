@@ -328,6 +328,7 @@ footer {
 
 .burger {
   display: none;
+  margin-right: 3vw;
 }
 .line1,
 .line2,
